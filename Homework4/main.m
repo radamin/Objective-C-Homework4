@@ -6,11 +6,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Robot.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        Robot *robot = [[Robot alloc] init];
+        
+        [robot run:^Direction {
+            return up;
+        }];
+        
+        [robot run:^Direction {
+            return right;
+        }];
     }
     return 0;
 }

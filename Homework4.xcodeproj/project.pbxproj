@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		06A49B1C2B9FF23E001F1728 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A49B1B2B9FF23E001F1728 /* main.m */; };
+		06A49B232B9FF281001F1728 /* Robot.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A49B222B9FF281001F1728 /* Robot.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		06A49B182B9FF23E001F1728 /* Homework4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Homework4; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A49B1B2B9FF23E001F1728 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06A49B222B9FF281001F1728 /* Robot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Robot.m; sourceTree = "<group>"; };
+		06A49B242B9FF2B2001F1728 /* Robot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Robot.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				06A49B1B2B9FF23E001F1728 /* main.m */,
+				06A49B222B9FF281001F1728 /* Robot.m */,
+				06A49B242B9FF2B2001F1728 /* Robot.h */,
 			);
 			path = Homework4;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06A49B232B9FF281001F1728 /* Robot.m in Sources */,
 				06A49B1C2B9FF23E001F1728 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
